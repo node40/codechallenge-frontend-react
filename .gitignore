@@ -1,0 +1,19 @@
+# NPM packages folder.
+node_modules/
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tags
+.tmproj
+nbproject
+Thumbs.db
+tags
+*.sublime-workspace
+
+*npm-debug.log
+
+# built code
+/dist

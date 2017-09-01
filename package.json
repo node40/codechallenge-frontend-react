@@ -1,0 +1,38 @@
+{
+  "name": "node40-front-end-challenge",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js --progress",
+    "build": "webpack --config webpack.config.prod.js --progress --colors",
+    "build-test": "webpack --config webpack.config.test.js --progress --colors"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react-app": "^3.0.2",
+    "case-sensitive-paths-webpack-plugin": "^2.1.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "postcss-flexbugs-fixes": "^3.2.0",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "engines": {
+    "node": ">= 6.x <= 8.x",
+    "npm": ">= 3.x <= 5.x",
+    "yarn": ">=0.27.5"
+  }
+}
